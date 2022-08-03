@@ -15,4 +15,14 @@ export class EmployeesComponent implements OnInit {
   lastname: string = "Bakare";
   gender: string = "Female";
   age: number = 40;
+
+
+
+  showDetails: boolean = false;
+
+  toggleShowDetails(): void {
+    this.showDetails = !this.showDetails;
+  }
+
 }
+
